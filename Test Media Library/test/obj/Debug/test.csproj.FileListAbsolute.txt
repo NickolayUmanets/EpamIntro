@@ -1,0 +1,18 @@
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\bin\Debug\test.exe.config
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\bin\Debug\test.exe
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\bin\Debug\test.pdb
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\obj\Debug\test.exe
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\obj\Debug\test.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\bin\Debug\test.exe.config
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\obj\Debug\test.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\obj\Debug\test.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\bin\Debug\test.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Test Media Library\test\bin\Debug\test.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Test Media Library\test\bin\Debug\test.exe.config
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Test Media Library\test\obj\Debug\test.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Test Media Library\test\obj\Debug\test.pdb
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Test Media Library\test\bin\Debug\test.exe.config
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Test Media Library\test\obj\Debug\test.exe
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Test Media Library\test\obj\Debug\test.pdb

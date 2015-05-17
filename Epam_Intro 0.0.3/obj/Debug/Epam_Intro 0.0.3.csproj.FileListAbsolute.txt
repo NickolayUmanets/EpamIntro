@@ -1,0 +1,18 @@
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.exe.config
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.exe
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.pdb
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.csprojResolveAssemblyReference.cache
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.exe
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.exe.config
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\Epam_Intro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.csprojResolveAssemblyReference.cache
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.exe.config
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.3\bin\Debug\Epam_Intro 0.0.3.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.csprojResolveAssemblyReference.cache
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.3\obj\Debug\Epam_Intro 0.0.3.pdb

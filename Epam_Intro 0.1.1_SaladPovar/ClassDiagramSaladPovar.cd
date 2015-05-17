@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Salad">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAIAAAAAAAAgACAAIAEQAAAAFAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Salad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Dressing">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dressing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.TuberCrops">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TuberCrops.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.ColeCrops">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIBAI=</HashCode>
+      <FileName>ColeCrops.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Greens">
+    <Position X="2" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Greens.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Herbs">
+    <Position X="12.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAABAAAAAAgBAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Herbs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.BulbCrop">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BulbCrop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Tomatoes">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Tomatoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Cucurbits">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAEAAAAA=</HashCode>
+      <FileName>Cucurbits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Beans">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Grains">
+    <Position X="15.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grains.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Vinegar">
+    <Position X="18.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vinegar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Salt">
+    <Position X="18.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Salt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Oil">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Oil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.SunFloverOil">
+    <Position X="20.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SunFloverOil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.OliveOil">
+    <Position X="20.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OliveOil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.SourCream">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SourCream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Mayonnaise">
+    <Position X="18.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mayonnaise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Sause">
+    <Position X="18.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.NotVegetables">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NotVegetables.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Deserts">
+    <Position X="8" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Deserts.cs</FileName>
+      <NewMemberFileName>Vegetables.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Ingridients">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingridients.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.RootCrops">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAEBCgAACAAAAAAAgAAAAAACA=</HashCode>
+      <FileName>RootCrops.cs</FileName>
+      <NewMemberFileName>Vegetables.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Epam_Intro_0._1._1_SaladPovar.Vegetables">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAAAAAEAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Vegetables.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Epam_Intro_0._1._1_SaladPovar.IIngridients">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIngridients.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Epam_Intro_0._1._1_SaladPovar.IVegetable">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAAAAAEAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>IVegetableBased.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Epam_Intro_0._1._1_SaladPovar.INotVegetable">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>INotVegetable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Epam_Intro_0._1._1_SaladPovar.IDressing">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDressing.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

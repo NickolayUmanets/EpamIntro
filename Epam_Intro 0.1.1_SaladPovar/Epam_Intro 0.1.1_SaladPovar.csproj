@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56D5C7D1-8D7A-4CE8-A4DB-4C761D890A84}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Epam_Intro_0._1._1_SaladPovar</RootNamespace>
+    <AssemblyName>Epam_Intro 0.1.1_SaladPovar</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Beans.cs" />
+    <Compile Include="BulbCrop.cs" />
+    <Compile Include="ColeCrops.cs" />
+    <Compile Include="Cucurbits.cs" />
+    <Compile Include="Deserts.cs" />
+    <Compile Include="Dressing.cs" />
+    <Compile Include="Fruit.cs" />
+    <Compile Include="Grains.cs" />
+    <Compile Include="Greens.cs" />
+    <Compile Include="Herbs.cs" />
+    <Compile Include="IDressing.cs" />
+    <Compile Include="IIngridients.cs" />
+    <Compile Include="Ingridients.cs" />
+    <Compile Include="INotVegetable.cs" />
+    <Compile Include="IVegetableBased.cs" />
+    <Compile Include="Mayonnaise.cs" />
+    <Compile Include="NotVegetables.cs" />
+    <Compile Include="Oil.cs" />
+    <Compile Include="OliveOil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RootCrops.cs" />
+    <Compile Include="Salad.cs" />
+    <Compile Include="Salt.cs" />
+    <Compile Include="Sause.cs" />
+    <Compile Include="SourCream.cs" />
+    <Compile Include="SunFloverOil.cs" />
+    <Compile Include="Tomatoes.cs" />
+    <Compile Include="TuberCrops.cs" />
+    <Compile Include="TuberCrops_2.cs" />
+    <Compile Include="Veget.cs" />
+    <Compile Include="Vegetables.cs" />
+    <Compile Include="Vinegar.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagramSaladPovar.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

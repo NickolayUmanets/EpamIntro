@@ -1,0 +1,5 @@
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\obj\Debug\ModelingProject1Lib.csprojResolveAssemblyReference.cache
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\bin\Debug\ModelingProject1Lib.dll
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\bin\Debug\ModelingProject1Lib.pdb
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\obj\Debug\ModelingProject1Lib.dll
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\obj\Debug\ModelingProject1Lib.pdb

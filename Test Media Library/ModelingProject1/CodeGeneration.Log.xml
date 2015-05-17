@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-04-25T12:22:05" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'ModelingProject1::ITime' -  (Interface), 'ModelingProject1::IMedia' -  (Interface), 'ModelingProject1::ISense' -  (Interface), 'ModelingProject1::IStatic' -  (Interface), 'ModelingProject1::IDynamic' -  (Interface), 'ModelingProject1::IAudio' -  (Interface), 'ModelingProject1::IVisual' -  (Interface), 'ModelingProject1::ITactile' -  (Interface), 'ModelingProject1::IPicture' -  (Interface), 'ModelingProject1::IAudioTrack' -  (Interface), 'ModelingProject1::IVideo' -  (Interface), 'ModelingProject1::IMovie' -  (Interface), 'ModelingProject1::ISerial' -  (Interface), 'ModelingProject1::IClip' -  (Interface) " />
+  <Message Timestamp="2015-04-25T12:22:06" Importance="Medium" Text="'ModelingProject1::ITime' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\ITime.cs" />
+  <Message Timestamp="2015-04-25T12:22:06" Importance="Medium" Text="'ModelingProject1::IMedia' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IMedia.cs" />
+  <Message Timestamp="2015-04-25T12:22:06" Importance="Medium" Text="'ModelingProject1::ISense' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\ISense.cs" />
+  <Message Timestamp="2015-04-25T12:22:06" Importance="Medium" Text="'ModelingProject1::IStatic' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IStatic.cs" />
+  <Message Timestamp="2015-04-25T12:22:06" Importance="Medium" Text="'ModelingProject1::IDynamic' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IDynamic.cs" />
+  <Message Timestamp="2015-04-25T12:22:07" Importance="Medium" Text="'ModelingProject1::IAudio' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IAudio.cs" />
+  <Message Timestamp="2015-04-25T12:22:07" Importance="Medium" Text="'ModelingProject1::IVisual' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IVisual.cs" />
+  <Message Timestamp="2015-04-25T12:22:07" Importance="Medium" Text="'ModelingProject1::ITactile' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\ITactile.cs" />
+  <Message Timestamp="2015-04-25T12:22:07" Importance="Medium" Text="'ModelingProject1::IPicture' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IPicture.cs" />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Medium" Text="'ModelingProject1::IAudioTrack' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IAudioTrack.cs" />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Medium" Text="'ModelingProject1::IVideo' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IVideo.cs" />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Medium" Text="'ModelingProject1::IMovie' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IMovie.cs" />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Medium" Text="'ModelingProject1::ISerial' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\ISerial.cs" />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Medium" Text="'ModelingProject1::IClip' -  (Interface) : success (file replaced) - C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\Test Media Library\ModelingProject1Lib\GeneratedCode\IClip.cs" />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="The selection included 17 elements which were not bound to a template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'73a6d7c1-de06-4cf9-aec1-4a6aa7c9ceb2' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'399dbbc1-c312-45e1-9ea5-9a9f22e5db32' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'5437a588-e0c7-4483-933e-8e806a36fdc4' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'0d6c46cf-3a7e-4aaa-8f59-8c5d001180ca' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'cf4d6c60-4e2f-4bd0-b9d4-55d9b81d82ce' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'c369c33f-9f60-4092-84cf-c90b9e6c4fb7' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'c9f4a535-1d0d-4c5f-9073-22c71628bbe4' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'0b8415f8-204c-4c5f-b279-54019c8567cb' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'757fa83a-4279-41b3-a537-7397f69cfa91' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'629b5bb2-a25e-4055-b474-d7b600094405' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'a42df47b-1b7a-495c-a53a-6a38404a5cdf' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'91b881de-a09f-4048-a64b-7bbeff81d380' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'dc75f66f-d047-4026-9dc6-86e3fcd89d06' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'516c0c0a-7b49-4d58-ba0c-3d40c095b3da' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'b66d9061-81f3-4392-a2b5-a7ed2f9e8317' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'7cde60f2-a028-4e78-af6e-210587e1971a' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="Diagnostic" Text="'38f3bbbe-d906-44c6-9f72-8b1217e70d91' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-04-25T12:22:08" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
