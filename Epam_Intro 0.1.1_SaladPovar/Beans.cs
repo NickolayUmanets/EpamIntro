@@ -7,7 +7,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
 {
     public class Beans: Vegetables
     {
-        public static Vegetables Pea = new Vegetables()
+        public static Vegetables Pea = new Vegetables() // горох
         {
             Name = "Pea",
             proteins = 5,
@@ -15,7 +15,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 55,
             vitaminC = 25
         };
-        public static Vegetables Bean = new Vegetables()
+        public static Vegetables Bean = new Vegetables() // бобы, фасоль
         {
             Name = "Bean",
             proteins = 21,

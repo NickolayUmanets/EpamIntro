@@ -7,7 +7,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
 {
     public class Grains: Vegetables
     {
-        public static Vegetables Maize = new Vegetables()
+        public static Vegetables Maize = new Vegetables() // кукуруза
         {
             Name = "Maize",
             proteins = 3.5,

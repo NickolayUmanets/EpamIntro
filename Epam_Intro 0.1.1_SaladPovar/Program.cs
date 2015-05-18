@@ -22,14 +22,15 @@ namespace Epam_Intro_0._1._1_SaladPovar
             s.AddIngridient(TuberCrops.Batata, 30);
             s.AddIngridient(Tomatoes.Tomato, 80);
             s.AddIngridient(BulbCrop.Garlic, 25);
-
+            s.AddIngridient(Deserts.Rhubarb, 20);
             foreach (string item in s.CaloriesRangeIngridients(20, 70))
             {
                 Console.WriteLine(item);
             }
-
             Console.WriteLine(s.CompleteMass);
             Console.WriteLine(s.CalculateCalories());
+
+            Salad s1 = new Salad("test 2");
 
             Console.ReadKey();
    

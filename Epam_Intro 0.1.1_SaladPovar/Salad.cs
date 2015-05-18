@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 
@@ -78,6 +79,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
         public double CalculateCalories()
         {
             double fullCalories = 0;
+
             foreach (KeyValuePair<Vegetables, int> item in setOfVegetables)
             {
                 fullCalories += Сalories(item.Key.energy, item.Value);
@@ -93,7 +95,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             return fullCalories;
         }
 
-        //метод показывает ингридиенты по диапазону калорийности в салате
+        //метод показывает ингридиенты по диапазону калорийности в салате (реализованы только овощи)
         public List<string> CaloriesRangeIngridients(double minCalories, double maxCalories)
         {
             List<string> ingridients = new List<string>();
@@ -108,31 +110,29 @@ namespace Epam_Intro_0._1._1_SaladPovar
                     ingridients.Add(vg.Name);
                 }
             }
-            foreach (KeyValuePair<NotVegetables, int> item in setOfNotVegetables)
-            {
-                NotVegetables nvg = item.Key;
-                int nvg_mass = item.Value;
-                double cal = Сalories(nvg.energy, nvg_mass);
+            //foreach (KeyValuePair<NotVegetables, int> item in setOfNotVegetables)
+            //{
+            //    NotVegetables nvg = item.Key;
+            //    int nvg_mass = item.Value;
+            //    double cal = Сalories(nvg.energy, nvg_mass);
 
-                if (cal >= minCalories && cal <= maxCalories)
-                {
-                    ingridients.Add(nvg.Name);
-                }
-            }
-            foreach (KeyValuePair<Dressing, int> item in setOfDressing)
-            {
-                Dressing drs = item.Key;
-                int drs_mass = item.Value;
-                double cal = Сalories(drs.energy, drs_mass);
+            //    if (cal >= minCalories && cal <= maxCalories)
+            //    {
+            //        ingridients.Add(nvg.Name);
+            //    }
+            //}
+            //foreach (KeyValuePair<Dressing, int> item in setOfDressing)
+            //{
+            //    Dressing drs = item.Key;
+            //    int drs_mass = item.Value;
+            //    double cal = Сalories(drs.energy, drs_mass);
 
-                if (cal >= minCalories && cal <= maxCalories)
-                {
-                    ingridients.Add(drs.Name);
-                }
-            }
+            //    if (cal >= minCalories && cal <= maxCalories)
+            //    {
+            //        ingridients.Add(drs.Name);
+            //    }
+            //}
             return ingridients;
         }
-
-       
     }
 }

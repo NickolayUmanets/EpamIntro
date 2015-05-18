@@ -2,7 +2,7 @@
 {
     public class Cucurbits: Vegetables
     {
-        public static Vegetables Cucumber = new Vegetables()
+        public static Vegetables Cucumber = new Vegetables() //огурец
         {
             Name = "Cucumber",
             proteins = 0.65,

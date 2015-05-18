@@ -7,7 +7,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
 {
     public class Greens : Vegetables
     {
-        public static Vegetables CabbageLettuce = new Vegetables()
+        public static Vegetables CabbageLettuce = new Vegetables() //салат кочанный
         {
             Name = "Cabbage Lettuce",
             proteins = 0.9,
@@ -15,7 +15,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 14,
             vitaminC = 28
         };
-        public static Vegetables LeafLettuce = new Vegetables()
+        public static Vegetables LeafLettuce = new Vegetables() //салат листовой
         {
             Name = "Leaf Lettuce",
             proteins = 1.5,

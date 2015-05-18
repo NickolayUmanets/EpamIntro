@@ -7,7 +7,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
 {
     public class ColeCrops: Vegetables
     {
-        public static Vegetables Broccoli = new Vegetables()
+        public static Vegetables Broccoli = new Vegetables() //брокколи
         {
             Name = "Broccoli",
             proteins = 2.8,
@@ -23,7 +23,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 27,
             vitaminC = 24
         };
-        public static Vegetables Kohlrabi = new Vegetables()
+        public static Vegetables Kohlrabi = new Vegetables() // кольраби
         {
             Name = "Kohlrabi",
             proteins = 2.8,
@@ -31,7 +31,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 44,
             vitaminC = 50
         };
-        public static Vegetables BrusselsSprout = new Vegetables()
+        public static Vegetables BrusselsSprout = new Vegetables() // капуста брюссельская
         {
             Name = "Brussels Sprout",
             proteins = 3.4,

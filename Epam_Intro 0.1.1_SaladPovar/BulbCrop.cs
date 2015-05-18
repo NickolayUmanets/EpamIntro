@@ -7,7 +7,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
 {
     public class BulbCrop: Vegetables
     {
-        public static Vegetables Garlic = new Vegetables()
+        public static Vegetables Garlic = new Vegetables() //чеснок
         {
             Name = "Garlic",
             proteins = 6.36,
@@ -15,7 +15,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 149,
             vitaminC = 31.2
         };
-        public static Vegetables GreenOnion = new Vegetables()
+        public static Vegetables GreenOnion = new Vegetables() //лук зеленый
         {
             Name = "Green Onion",
             proteins = 1.1,
@@ -23,7 +23,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 21,
             vitaminC = 48
         };
-        public static Vegetables BulbOnion = new Vegetables()
+        public static Vegetables BulbOnion = new Vegetables() //лук репчатый
         {
             Name = "Bulb Onion",
             proteins = 2.5,
