@@ -23,7 +23,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 23,
             vitaminC = 18
         };
-        public static Vegetables Estragon = new Vegetables() // эстрагон
+        public static Vegetables Estragon = new Vegetables() //эстрагон
         {
             Name = "Estragon",
             proteins = 1.5,

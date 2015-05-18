@@ -23,7 +23,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 27,
             vitaminC = 24
         };
-        public static Vegetables Kohlrabi = new Vegetables() // кольраби
+        public static Vegetables Kohlrabi = new Vegetables() //кольраби
         {
             Name = "Kohlrabi",
             proteins = 2.8,
@@ -31,7 +31,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 44,
             vitaminC = 50
         };
-        public static Vegetables BrusselsSprout = new Vegetables() // капуста брюссельская
+        public static Vegetables BrusselsSprout = new Vegetables() //капуста брюссельская
         {
             Name = "Brussels Sprout",
             proteins = 3.4,

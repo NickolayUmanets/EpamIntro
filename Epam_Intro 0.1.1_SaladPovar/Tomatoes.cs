@@ -15,7 +15,7 @@ namespace Epam_Intro_0._1._1_SaladPovar
             energy = 18,
             vitaminC = 34
         };
-        public static Vegetables Paprica = new Vegetables() // перец сладкий
+        public static Vegetables Paprica = new Vegetables() //перец сладкий
         {
             Name = "Paprica",
             proteins = 1.3,
