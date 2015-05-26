@@ -84,14 +84,14 @@ namespace Epam_Intro_0._1._1_SaladPovar
             {
                 fullCalories += Сalories(item.Key.energy, item.Value);
             }
-            foreach (KeyValuePair<NotVegetables, int> item in setOfNotVegetables)
-            {
-                fullCalories += Сalories(item.Key.energy, item.Value);
-            }
-            foreach (KeyValuePair<Dressing, int> item in setOfDressing)
-            {
-                fullCalories += Сalories(item.Key.energy, item.Value);
-            }
+            //foreach (KeyValuePair<NotVegetables, int> item in setOfNotVegetables)
+            //{
+            //    fullCalories += Сalories(item.Key.energy, item.Value);
+            //}
+            //foreach (KeyValuePair<Dressing, int> item in setOfDressing)
+            //{
+            //    fullCalories += Сalories(item.Key.energy, item.Value);
+            //}
             return fullCalories;
         }
 

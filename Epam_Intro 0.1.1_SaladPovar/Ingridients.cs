@@ -7,6 +7,6 @@ namespace Epam_Intro_0._1._1_SaladPovar
 {
     public abstract class Ingridients: IIngridients
     {
-        public string Name { get; set; }
+        public abstract string Name { get; }
     }
 }

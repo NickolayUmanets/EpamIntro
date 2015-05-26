@@ -1,14 +1,14 @@
 ﻿namespace Epam_Intro_0._1._1_SaladPovar
 {
-    public class Vegetables : Ingridients, IVegetable
+    public abstract class Vegetables : Ingridients, IVegetable
     {
 
-        public double proteins { get; set; }
+        public abstract double proteins { get; }
 
-        public double carbohydrates { get; set; }
+        public abstract double carbohydrates { get; }
 
-        public double energy { get; set; }
+        public abstract double energy { get; }
 
-        public double vitaminC { get; set; }
+        public abstract double vitaminC { get; }
     }
 }

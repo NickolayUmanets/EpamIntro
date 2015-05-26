@@ -22,3 +22,5 @@ C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamInt
 C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.1\bin\Debug\Epam_Intro 0.0.1.exe
 C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.1\bin\Debug\Epam_Intro 0.0.1.pdb
 C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.1\obj\Debug\Epam_Intro 0.0.1.csprojResolveAssemblyReference.cache
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.1\bin\Debug\Epam_Intro 0.0.1.exe
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.0.1\bin\Debug\Epam_Intro 0.0.1.pdb

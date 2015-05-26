@@ -8,3 +8,5 @@ C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamInt
 C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.1.1_SaladPovar\obj\Debug\Epam_Intro 0.1.1_SaladPovar.pdb
 C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.1.1_SaladPovar\obj\Debug\Epam_Intro 0.1.1_SaladPovar.exe
 C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.1.1_SaladPovar\obj\Debug\Epam_Intro 0.1.1_SaladPovar.pdb
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.1.1_SaladPovar\bin\Debug\Epam_Intro 0.1.1_SaladPovar.exe
+C:\Users\umanets\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.1.1_SaladPovar\bin\Debug\Epam_Intro 0.1.1_SaladPovar.pdb

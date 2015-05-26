@@ -17,12 +17,15 @@ namespace Epam_Intro_0._1._1_SaladPovar
             //Salad S5 = new Salad("dfg");
 
             Salad s = new Salad("test");
-            s.AddIngridient(Beans.Pea, 150);
-            s.AddIngridient(TuberCrops.Potato, 70);
+            s.AddIngridient(new Beans(), 150);
+            s.AddIngridient(new Tomatoes(), 70);
             s.AddIngridient(TuberCrops.Batata, 30);
             s.AddIngridient(Tomatoes.Tomato, 80);
             s.AddIngridient(BulbCrop.Garlic, 25);
             s.AddIngridient(Deserts.Rhubarb, 20);
+
+            var x = Beans.Pea;
+
             foreach (string item in s.CaloriesRangeIngridients(20, 70))
             {
                 Console.WriteLine(item);
