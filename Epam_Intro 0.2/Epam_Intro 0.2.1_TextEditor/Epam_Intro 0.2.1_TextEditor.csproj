@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3040784-C582-4837-9389-63630D7E9ED9}</ProjectGuid>
+    <ProjectGuid>{3AF552BB-A68E-4AF4-BAE4-3DF1CA445F8D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Epam_Intro_0._2._1_TextEditor</RootNamespace>
@@ -41,20 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="classes\BlankCharacter.cs" />
-    <Compile Include="classes\LowerCaseLetter.cs" />
-    <Compile Include="classes\PunctuationCharacter.cs" />
-    <Compile Include="classes\Sentence.cs" />
-    <Compile Include="classes\UpperCaseLetter.cs" />
-    <Compile Include="classes\Word.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

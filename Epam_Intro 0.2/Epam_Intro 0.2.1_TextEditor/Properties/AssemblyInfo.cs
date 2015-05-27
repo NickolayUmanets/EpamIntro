@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Epam_Intro 0.0.2.1_TextEditor")]
+[assembly: AssemblyTitle("Epam_Intro 0.2.1_TextEditor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Epam_Intro 0.0.2.1_TextEditor")]
+[assembly: AssemblyProduct("Epam_Intro 0.2.1_TextEditor")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("142e6552-7264-4fa4-8be8-178fe1fe3e4e")]
+[assembly: Guid("cf1e0147-8422-49d8-9411-1f55bd7454c9")]
 
 // Version information for an assembly consists of the following four values:
 //
