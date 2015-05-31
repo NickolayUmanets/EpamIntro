@@ -39,18 +39,35 @@ namespace Epam_Intro_0._2._1_TextEditor
             {
                 public List<string> _sign = new List<string>()
             {
-               " ", ".", ",", "!", "?", "\"", ";", ":", "'"
+               " ", ".", ",", "!", "?", ";", ":", "'"
             };
+            }
+
+            public class WordSeparator
+            {
+                public List<string> _wordSeparator = new List<string>()
+                {
+                    " ",
+                    " - "
+                };
+            }
+            public class SentenceSeparator
+            {
+                public List<string> _sentenceSeparator = new List<string>()
+                {
+                    ". ", "! ", "? ", "!!! ", "?! ", ""
+                };
             }
         };
 
         public class Word
         {
-
+            List<Symbol.Letter> _word = new List<Symbol.Letter>();
         };
 
         public class Sentence
         {
+
         };
 
         static void Main(string[] args)

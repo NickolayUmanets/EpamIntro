@@ -1,0 +1,6 @@
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.2.1_TextEditor\bin\Debug\Epam_Intro 0.2.1_TextEditor.exe.config
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.2.1_TextEditor\bin\Debug\Epam_Intro 0.2.1_TextEditor.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.2.1_TextEditor\bin\Debug\Epam_Intro 0.2.1_TextEditor.pdb
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.2.1_TextEditor\obj\Debug\Epam_Intro 0.2.1_TextEditor.csprojResolveAssemblyReference.cache
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.2.1_TextEditor\obj\Debug\Epam_Intro 0.2.1_TextEditor.exe
+C:\Users\y e l l o m a t i k\Dropbox\личное\C#\EPAM\Задания\EpamIntro\Epam_Intro 0.2.1_TextEditor\obj\Debug\Epam_Intro 0.2.1_TextEditor.pdb
