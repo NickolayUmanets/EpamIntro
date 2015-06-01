@@ -13,7 +13,7 @@ namespace Epam_Intro_0._2._1_TextEditor.Parsers
     {
         public List<Sentence> Parse(string val)
         {
-            var sentences = Regex.Split(val, @"(?<=[\.!\?])\s+");
+            var sentences = Regex.Split(val, @"(?<=[\.!?])\s+");
             return sentences.Select(sentence => new Sentence(sentence)).ToList();
         }
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Epam_Intro_0._2._1_TextEditor.Classes;
 using Epam_Intro_0._2._1_TextEditor.Extensions;
@@ -44,6 +45,12 @@ namespace Epam_Intro_0._2._1_TextEditor
             }
 
             //Из текста удалить все слова заданной длины, начинающиеся на согласную букву.
+
+            MatchCollection matches = Regex.Matches(parsedText, @"\s+[BbCcDdFfGgHhJjKkLlMmNnPpQqRrSsTtVvWwXxZz]\S+\b");
+            for (int i = matches.Count - 1, j = 1; i >= 0; i--, j++)
+            {
+                Console.WriteLine("{0}. {1}", j, matches[i].ToString());
+            }
 
 
             //В некотором предложении текста слова заданной длины заменить указанной подстрокой, длина которой может не совпадать с длиной слова.
