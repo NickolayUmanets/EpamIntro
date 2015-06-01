@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Epam_Intro_0._2._1_TextEditor.Classes;
+using Epam_Intro_0._2._1_TextEditor.Extensions;
+using Epam_Intro_0._2._1_TextEditor.Factories;
 
 //Задача 1. Создать программу обработки текста учебника по программированию с использованием классов:
 //Символ, Слово, Предложение, Знак препинания и др. (состав и иерархию классов продумать самостоятельно).
@@ -19,6 +22,37 @@ namespace Epam_Intro_0._2._1_TextEditor
     {
         static void Main(string[] args)
         {
+            var parsedText = "Parsed text should be pasted here. Or read from file! One? One Two? One Tow Three Four five six seven Eight? Awesome manouver by Senna helps him to protect his position here at Adelaida, but his teammate and main competitor won't give up such early in the beggining of the race, so Prost will fight till the last turn and increase the pressure on Ayrton. How could you solve this riddle having no any hints and assumptions? Could you try to recall all the circumstances of what was happened last morning in the details? Take it easy, my fellow... Don't regret you fail, regret you fail so quick. Think twice before you kick him off! Congrats, see ya! His elevator doesn't go full way up. He is definately not the sharpest tool in the shed.";
+            var sentencefactory = ParserFactory.CreateParser<Sentence>();
+            var sentenceList = sentencefactory.Parse(parsedText);
+            //Вывести все предложения заданного текста в порядке возрастания количества слов в каждом из них.
+            foreach (var sentence in sentenceList.SortSentencesByWordQuantity())
+            {
+                Console.WriteLine(sentence.Value);
+            }
+
+            //Во всех вопросительных предложениях текста найти и напеча¬тать без повторений слова заданной длины.
+            var wordfactory = ParserFactory.CreateParser<Word>();
+            foreach (var sentence in sentenceList.FindInterrogativeSentences())
+            {
+                var wordList = wordfactory.Parse(sentence.Value);
+                foreach (var word in wordList.SelectByLenght(5))
+                {
+                    Console.WriteLine(word.Value);
+                }
+
+            }
+
+            //Из текста удалить все слова заданной длины, начинающиеся на согласную букву.
+
+
+            //В некотором предложении текста слова заданной длины заменить указанной подстрокой, длина которой может не совпадать с длиной слова.
+
+
+            var symbolfactory = ParserFactory.CreateParser<Symbol>();
+            var symbolList = symbolfactory.Parse(parsedText);
+
+            Console.ReadKey();
         }
     }
 }

@@ -43,10 +43,15 @@
   <ItemGroup>
     <Compile Include="Extensions\SentenceExtensions.cs" />
     <Compile Include="Extensions\WordExtensions.cs" />
+    <Compile Include="Factories\ParserFactory.cs" />
+    <Compile Include="Interfaces\IParser.cs" />
     <Compile Include="Items\PunctuationSymbol.cs" />
     <Compile Include="Items\Sentence.cs" />
     <Compile Include="Items\Symbol.cs" />
     <Compile Include="Items\Word.cs" />
+    <Compile Include="Parsers\SentenceParser.cs" />
+    <Compile Include="Parsers\SymbolParser.cs" />
+    <Compile Include="Parsers\WordParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,9 +59,7 @@
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

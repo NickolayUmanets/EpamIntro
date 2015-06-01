@@ -15,5 +15,10 @@ namespace Epam_Intro_0._2._1_TextEditor.Classes
         {
             Value = val;
         }
+
+        //public Word()
+        //{
+                
+        //}
     }
 }

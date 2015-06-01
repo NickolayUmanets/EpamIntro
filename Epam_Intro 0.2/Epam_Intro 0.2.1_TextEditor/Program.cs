@@ -78,17 +78,7 @@ namespace Epam_Intro_0._2._1_TextEditor
                                  "Sentence four, five six?" +
                                  "Sentence eight and nine and ten?" +
                                  "Last sentence!";
-                               /*"Awesome manouver by Senna helps him to protect his position here at Adelaida," +
-                                 "but his teammate and main competitor won't give up such early in the beggining of the race," +
-                                 "so Prost will fight till the last turn and increase the pressure on Ayrton." +
-                                 "How could you solve this riddle having no any hints and assumptions?" +
-                                 "Could you try to recall all the circumstances of what was happened last morning in the details?" +
-                                 "Take it easy, my fellow..." +
-                                 "Don't regret you fail, regret you fail such quick." +
-                                 "Think twice before you kick him off!" +
-                                 "Congrats, see ya!" +
-                                 "His elevator doesn't go full way up." +
-                                 "Hi is definately not the sharpest tool in the shed.";
+                               /*"Awesome manouver by Senna helps him to protect his position here at Adelaida, but his teammate and main competitor won't give up such early in the beggining of the race, so Prost will fight till the last turn and increase the pressure on Ayrton. How could you solve this riddle having no any hints and assumptions? Could you try to recall all the circumstances of what was happened last morning in the details? Take it easy, my fellow... Don't regret you fail, regret you fail so quick. Think twice before you kick him off! Congrats, see ya! His elevator doesn't go full way up. He is definately not the sharpest tool in the shed.";
                                 */
 
             //int CountVowel = Regex.Matches(initialtext);
