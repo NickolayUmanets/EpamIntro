@@ -17,7 +17,6 @@ namespace Epam_Intro_0._2._1_TextEditor.Extensions
         public static IEnumerable<Sentence> FindInterrogativeSentences(this IEnumerable<Sentence> list)
         {
             return list.Where(x => x.Value.Contains("?")).ToList();
-
         }
     }
 }

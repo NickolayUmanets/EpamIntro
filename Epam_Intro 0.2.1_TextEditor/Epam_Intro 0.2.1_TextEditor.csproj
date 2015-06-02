@@ -47,6 +47,7 @@
     <Compile Include="Interfaces\IParser.cs" />
     <Compile Include="Items\PunctuationSymbol.cs" />
     <Compile Include="Items\Sentence.cs" />
+    <Compile Include="Items\SentenceSeparator.cs" />
     <Compile Include="Items\Symbol.cs" />
     <Compile Include="Items\Word.cs" />
     <Compile Include="Parsers\SentenceParser.cs" />
