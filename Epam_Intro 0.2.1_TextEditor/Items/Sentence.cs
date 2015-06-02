@@ -9,6 +9,7 @@ namespace Epam_Intro_0._2._1_TextEditor.Classes
     public class Sentence
     {
         public string Value { get; set; }
+        //public List<object> Value { get; set; }
 
         public int WordQuantity { get { return Value.Count(Char.IsWhiteSpace); } }
 
