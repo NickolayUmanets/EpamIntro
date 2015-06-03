@@ -30,7 +30,8 @@ namespace Epam_Intro_0._2._1_TextEditor.Parsers
                     if (char.IsUpper(c))
                     {
                         sentences.Add(sb.ToString());
-                        sb = new StringBuilder(c);
+                        sb = new StringBuilder();
+                        sb.Append(c);
                         isEnd = false;
                     }
                     else if(char.IsPunctuation(c))
