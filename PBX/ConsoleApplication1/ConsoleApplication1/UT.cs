@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
-    public abstract class UT
+    public class UT
     {
         private string name;
         private int number;
@@ -26,13 +26,15 @@ namespace ConsoleApplication1
         }
 
         public void Answer()
-        {
+        {            
             throw new System.NotImplementedException();
+            PBX.onConnect();
         }
 
         public void Close()
         {
             throw new System.NotImplementedException();
+            PBX.onDrop();
         }
 
         public void Subscribe()

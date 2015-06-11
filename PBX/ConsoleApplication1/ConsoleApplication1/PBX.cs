@@ -8,17 +8,20 @@ namespace ConsoleApplication1
     public class PBX
     {
         private int portNumber;
-        private int portState;
-        private int portStatus;
+        private string portState; // online, offline, busy
+        private string portStatus; // acceptor, initiator
         private int connectionDuration;
-        private int dialDuration;
+        private int dialDuration;       
 
-        public event EventHandler OnConnect;
+        public delegate void Del_DialDurationCount();
+        public event Del_DialDurationCount onConnect;
 
-        public event EventHandler OnDrop;
+        public delegate void Del_ConnectClose();
+        public event EventHandler onDrop;
 
         public void DialDurationCount()
         {
+            int result;
             throw new System.NotImplementedException();
         }
 
@@ -27,8 +30,15 @@ namespace ConsoleApplication1
             throw new System.NotImplementedException();
         }
 
-        public void Connect()
+        public void ConnectOpen()
         {
+            portState = "busy"; // online, offline, busy
+            throw new System.NotImplementedException();
+        }
+
+        public void ConnectClose()
+        {
+            portState = "online"; // online, offline, busy
             throw new System.NotImplementedException();
         }
     }
