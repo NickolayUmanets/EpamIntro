@@ -15,20 +15,30 @@ namespace ConsoleApplication1
             private string portState = "online"; // online, offline, busy
             private string portStatus = "undetermined"; // acceptor, initiator, undetermined
 
-            private static void CreateTimeSpan(int hours, int minutes, int seconds)
+            public int PortNR { get; set; }
+            public int InitiatorPortNR { get; set; }
+            public int AcceptorPortNR { get; set; }
+            public string PortState { get; set; }
+            public string PortStatus { get; set; }
+
+            
+            private TimeSpan connectionDuration; // to pass it to tarificator. must has time-related type
+            private TimeSpan connectionDurationLimit; // = new TimeSpan(0, 0, 25);
+            private TimeSpan dialDuration; // = new TimeSpan(int hours, int minutes, int seconds);
+            private TimeSpan dialDurationLimit; // = new TimeSpan(0, 0, 10); // to drop dial of initiator if no answer after set value is reached . must has time-related type
+            
+
+            public Port()
             {
-                TimeSpan connectionDuration = new TimeSpan(hours, minutes, seconds);
-                TimeSpan connectionDurationLimit = new TimeSpan(0, 0, 25);
-                TimeSpan dialDuration = new TimeSpan(hours, minutes, seconds);
-                TimeSpan dialDurationLimit = new TimeSpan(0, 0, 10);
+                PortNR = 0;
+                InitiatorPortNR = 0;
+                AcceptorPortNR = 0;
+                PortState = "online";
+                PortStatus = "undetermined";
+                connectionDurationLimit = new TimeSpan(0, 0, 25);
+                dialDurationLimit = new TimeSpan(0, 0, 10);
             }
-
         }
-
-        private int connectionDuration; // to pass it to tarificator. must has time-related type
-        private int dialDuration; // to drop dial of initiator if no answer after set value is reached . must has time-related type
-
-        
 
         public void DialDurationCount()
         {
@@ -48,13 +58,11 @@ namespace ConsoleApplication1
 
         public void ConnectOpen()
         {
-            portState = "busy"; // online, offline, busy
             throw new System.NotImplementedException();
         }
 
         public void ConnectClose()
         {
-            portState = "online"; // online, offline, busy
             throw new System.NotImplementedException();
         }
     }

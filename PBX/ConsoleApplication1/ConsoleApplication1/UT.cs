@@ -7,8 +7,15 @@ namespace ConsoleApplication1
 {
     public class UT
     {
-        private string name;
-        private int number;
+        private string subscriberName;
+        private int subscriberNR;
+        private int dialNR;
+        private int incomingNR;
+
+        public string SubscriberName { get; set; }
+        public int SubscriberNR { get; set; }
+        public int DialNR { get; set; }
+        public int IncomingNR { get; set; }
 
         public void Wait()
         {
@@ -20,7 +27,7 @@ namespace ConsoleApplication1
             throw new System.NotImplementedException();
         }
 
-        public void Ring()
+        public void Notify()
         {
             throw new System.NotImplementedException();
         }
@@ -28,13 +35,11 @@ namespace ConsoleApplication1
         public void Answer()
         {            
             throw new System.NotImplementedException();
-            PBX.onConnect();
         }
 
         public void Close()
         {
             throw new System.NotImplementedException();
-            PBX.onDrop();
         }
 
         public void Subscribe()
