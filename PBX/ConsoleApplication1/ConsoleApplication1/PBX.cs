@@ -10,19 +10,25 @@ namespace ConsoleApplication1
         private class Port
         {
             private int portNumber; // to identify UT subscriber
-            private string portState; // online, offline, busy
-            private string portStatus; // acceptor, initiator            
+            private int initiatorPortNR;
+            private int acceptorPortNR;
+            private string portState = "online"; // online, offline, busy
+            private string portStatus = "undetermined"; // acceptor, initiator, undetermined
+
+            private static void CreateTimeSpan(int hours, int minutes, int seconds)
+            {
+                TimeSpan connectionDuration = new TimeSpan(hours, minutes, seconds);
+                TimeSpan connectionDurationLimit = new TimeSpan(0, 0, 25);
+                TimeSpan dialDuration = new TimeSpan(hours, minutes, seconds);
+                TimeSpan dialDurationLimit = new TimeSpan(0, 0, 10);
+            }
+
         }
 
         private int connectionDuration; // to pass it to tarificator. must has time-related type
         private int dialDuration; // to drop dial of initiator if no answer after set value is reached . must has time-related type
 
         
-        public delegate void Del_DialDurationCount();
-        public event Del_DialDurationCount onConnect;
-
-        public delegate void Del_ConnectClose();
-        public event EventHandler onDrop;
 
         public void DialDurationCount()
         {

@@ -11,19 +11,9 @@
           <NewMemberFileName>PBX.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Delegate Name="ConsoleApplication1.PBX.Del_DialDurationCount" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>PBX.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Delegate>
-      <Delegate Name="ConsoleApplication1.PBX.Del_ConnectClose" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>PBX.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Delegate>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAABCABAgQACBQAAA=</HashCode>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgQACBQAAA=</HashCode>
       <FileName>PBX.cs</FileName>
     </TypeIdentifier>
   </Class>
