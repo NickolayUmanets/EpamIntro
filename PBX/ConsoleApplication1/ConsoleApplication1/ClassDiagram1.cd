@@ -7,20 +7,31 @@
     </Compartments>
     <NestedTypes>
       <Class Name="ConsoleApplication1.PBX.Port">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Enum Name="ConsoleApplication1.PBX.Port.PortStates">
+            <TypeIdentifier>
+              <NewMemberFileName>PBX.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Enum>
+        </NestedTypes>
         <TypeIdentifier>
           <NewMemberFileName>PBX.cs</NewMemberFileName>
         </TypeIdentifier>
+        <Lollipop Position="0.2" />
       </Class>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgQACBQAAA=</HashCode>
+      <HashCode>ABCAAAAAgAAAAAAABAAAQAAAAAAAAACAAAgQAABAAAA=</HashCode>
       <FileName>PBX.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ConsoleApplication1.UT">
     <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAQAAAAAAAAAAAAAQGAAAAAAAAAgCCAAA=</HashCode>
+      <HashCode>gAAAABAIAAAQCAAACAAAAAAAAAQCAgBAAAIAAoCCAAA=</HashCode>
       <FileName>UT.cs</FileName>
     </TypeIdentifier>
   </Class>

@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
+using System.ComponentModel;
 
 namespace ConsoleApplication1
 {
@@ -21,7 +24,7 @@ namespace ConsoleApplication1
 
         public void Wait()
         {
-            PBX.Port.PortState = "online";
+            //PBX.Port.PortState = "online";
             PBX.Port.PortStatus = "undetermined";
             DialNR = 0;
             IncomingNR = 0;
@@ -55,6 +58,15 @@ namespace ConsoleApplication1
         public void Subscribe()
         {
             throw new System.NotImplementedException();
+        }
+
+        public void OnPortStateChanged(object sender, PropertyChangedEventArgs e)
+        {
+            PBX.Port sendingPort = sender as PBX.Port;
+            if (sendingPort.PortState == PBX.Port.PortStates.Initiator)
+            {
+                Notify();
+            }
         }
     }
 }

@@ -17,9 +17,10 @@ namespace ConsoleApplication1
             {
                 Offline,
                 Online,
+                Busy,
+                Undetermined,
                 Acceptor,
-                Initiator,
-                Busy
+                Initiator
             }
 
             private PortStates _portState;
@@ -35,12 +36,12 @@ namespace ConsoleApplication1
 
             public PortStates PortState
             {
-                get{return _portState}
+                get { return _portState; }
                 set
                 {
                     if (this._portState != value)
                     {
-                        this.PortState = value;
+                        this._portState = value;
                         NotifyPropertyChanged();
                     }
                 }
@@ -57,7 +58,7 @@ namespace ConsoleApplication1
 
             public void OnDialToAcceptor(object sender, DialToAcceptorEventArgs e)
             {
-
+                
             }
 
             public Port()
@@ -84,10 +85,14 @@ namespace ConsoleApplication1
 
             private void OnDialDurationTimeOut(object sender, System.Timers.ElapsedEventArgs e)
             {
-                
+                    
             }
 
-            
+            protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+            {
+
+            }
+
         }
 
         private int portQantity = 3;
@@ -100,6 +105,7 @@ namespace ConsoleApplication1
             for (int i = 1; i < portQantity; i++)
             {
                 Port port = new Port();
+                port.PropertyChanged += this.OnPortStateChanged;
                 Ports.Add(25678+i, port);
                 PhoneNumbers.Add(port, 25678 + i);
 
@@ -108,8 +114,14 @@ namespace ConsoleApplication1
 
         public void OnPortStateChanged(object sender, PropertyChangedEventArgs e)
         {
-            
+            Port senderPort = sender as Port;
+            if (senderPort.PortState == Port.PortStates.Initiator)
+            {
+                Port prt;
+                Ports.TryGetValue(senderPort.)
+            }
         }
+
         public void DialDurationCount()
         {
             int result;
@@ -123,10 +135,6 @@ namespace ConsoleApplication1
 
         public void DropDial()
         {
-            if ()
-            {
-                
-            }
             throw new System.NotImplementedException();
         }
 
