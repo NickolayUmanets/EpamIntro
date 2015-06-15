@@ -19,6 +19,7 @@ namespace ConsoleApplication1
 
         public void Wait()
         {
+            PBX.Port.PortState = "online";
             throw new System.NotImplementedException();
         }
 

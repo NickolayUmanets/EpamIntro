@@ -7,19 +7,19 @@ namespace ConsoleApplication1
 {
     public class PBX
     {
-        private class Port
+        internal class Port
         {
             private int portNumber; // to identify UT subscriber
             private int initiatorPortNR;
             private int acceptorPortNR;
-            private string portState = "online"; // online, offline, busy
-            private string portStatus = "undetermined"; // acceptor, initiator, undetermined
+            private static string portState = "online"; // online, offline, busy
+            private static string portStatus = "undetermined"; // acceptor, initiator, undetermined
 
-            public int PortNR { get; set; }
-            public int InitiatorPortNR { get; set; }
-            public int AcceptorPortNR { get; set; }
-            public string PortState { get; set; }
-            public string PortStatus { get; set; }
+            public static int PortNR { get; set; }
+            public static int InitiatorPortNR { get; set; }
+            public static int AcceptorPortNR { get; set; }
+            public static string PortState { get; set; }
+            public static string PortStatus { get; set; }
 
             
             private TimeSpan connectionDuration; // to pass it to tarificator. must has time-related type
