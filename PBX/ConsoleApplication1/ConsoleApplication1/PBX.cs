@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
+using System.Timers;
 
 namespace ConsoleApplication1
 {
@@ -14,7 +16,8 @@ namespace ConsoleApplication1
             private int acceptorPortNR;
             private static string portState = "online"; // online, offline, busy
             private static string portStatus = "undetermined"; // acceptor, initiator, undetermined
-
+            private System.Timers.Timer dialDurationTimer = new System.Timers.Timer(10000);
+            
             public static int PortNR { get; set; }
             public static int InitiatorPortNR { get; set; }
             public static int AcceptorPortNR { get; set; }
@@ -38,6 +41,12 @@ namespace ConsoleApplication1
                 connectionDurationLimit = new TimeSpan(0, 0, 25);
                 dialDurationLimit = new TimeSpan(0, 0, 10);
             }
+
+            dial
+            private void OnDialDurationTimeOut(object sender, System.Timers.ElapsedEventArgs e)
+            {
+                
+            }
         }
 
         public void DialDurationCount()
@@ -53,6 +62,10 @@ namespace ConsoleApplication1
 
         public void DropDial()
         {
+            if ()
+            {
+                
+            }
             throw new System.NotImplementedException();
         }
 

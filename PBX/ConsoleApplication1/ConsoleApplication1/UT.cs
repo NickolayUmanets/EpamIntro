@@ -20,7 +20,9 @@ namespace ConsoleApplication1
         public void Wait()
         {
             PBX.Port.PortState = "online";
-            throw new System.NotImplementedException();
+            PBX.Port.PortStatus = "undetermined";
+            DialNR = 0;
+            IncomingNR = 0;
         }
 
         public void Dial()
