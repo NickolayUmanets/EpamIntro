@@ -7,12 +7,17 @@ namespace ConsoleApplication1
 {
     public class PBX
     {
-        private int portNumber;
-        private string portState; // online, offline, busy
-        private string portStatus; // acceptor, initiator
-        private int connectionDuration;
-        private int dialDuration;       
+        private class Port
+        {
+            private int portNumber; // to identify UT subscriber
+            private string portState; // online, offline, busy
+            private string portStatus; // acceptor, initiator            
+        }
 
+        private int connectionDuration; // to pass it to tarificator. must has time-related type
+        private int dialDuration; // to drop dial of initiator if no answer after set value is reached . must has time-related type
+
+        
         public delegate void Del_DialDurationCount();
         public event Del_DialDurationCount onConnect;
 
@@ -22,6 +27,11 @@ namespace ConsoleApplication1
         public void DialDurationCount()
         {
             int result;
+            throw new System.NotImplementedException();
+        }
+
+        public void ConnectionlDurationCount()
+        {            
             throw new System.NotImplementedException();
         }
 

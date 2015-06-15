@@ -27,7 +27,6 @@ namespace PBX_test
             Signal = signal;
             Message = message;
         }
-
     }
 
     public class TerminalUser
