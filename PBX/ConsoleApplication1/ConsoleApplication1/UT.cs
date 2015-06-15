@@ -17,6 +17,8 @@ namespace ConsoleApplication1
         public int DialNR { get; set; }
         public int IncomingNR { get; set; }
 
+        public event EventHandler<DialToAcceptorEventArgs> DialToAcceptor;
+
         public void Wait()
         {
             PBX.Port.PortState = "online";
@@ -25,8 +27,13 @@ namespace ConsoleApplication1
             IncomingNR = 0;
         }
 
-        public void Dial()
+        public void Dial(int numberToDial)
         {
+            DialNR = numberToDial;
+            PBX.Port.InitiatorPortNR = subscriberNR;
+            if (DialToAcceptor!=null)
+                DialToAcceptor(this, new DialToAcceptorEventArgs(numberToDial));
+
             throw new System.NotImplementedException();
         }
 

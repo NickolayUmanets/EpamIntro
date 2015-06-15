@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Del_DialDurationCount.cs" />
+    <Compile Include="DialToAcceptorEventArgs.cs" />
     <Compile Include="PBX.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

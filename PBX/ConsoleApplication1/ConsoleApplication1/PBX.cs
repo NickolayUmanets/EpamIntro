@@ -1,27 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Timers;
+using System.Runtime.CompilerServices;
 
 namespace ConsoleApplication1
 {
     public class PBX
     {
-        internal class Port
+        internal class Port : INotifyPropertyChanged
         {
+            public enum PortStates
+            {
+                Offline,
+                Online,
+                Acceptor,
+                Initiator,
+                Busy
+            }
+
+            private PortStates _portState;
             private int portNumber; // to identify UT subscriber
             private int initiatorPortNR;
             private int acceptorPortNR;
-            private static string portState = "online"; // online, offline, busy
             private static string portStatus = "undetermined"; // acceptor, initiator, undetermined
             private System.Timers.Timer dialDurationTimer = new System.Timers.Timer(10000);
             
             public static int PortNR { get; set; }
             public static int InitiatorPortNR { get; set; }
             public static int AcceptorPortNR { get; set; }
-            public static string PortState { get; set; }
+
+            public PortStates PortState
+            {
+                get{return _portState}
+                set
+                {
+                    if (this._portState != value)
+                    {
+                        this.PortState = value;
+                        NotifyPropertyChanged();
+                    }
+                }
+            }
             public static string PortStatus { get; set; }
 
             
@@ -29,26 +52,64 @@ namespace ConsoleApplication1
             private TimeSpan connectionDurationLimit; // = new TimeSpan(0, 0, 25);
             private TimeSpan dialDuration; // = new TimeSpan(int hours, int minutes, int seconds);
             private TimeSpan dialDurationLimit; // = new TimeSpan(0, 0, 10); // to drop dial of initiator if no answer after set value is reached . must has time-related type
-            
+
+            public event PropertyChangedEventHandler PropertyChanged;
+
+            public void OnDialToAcceptor(object sender, DialToAcceptorEventArgs e)
+            {
+
+            }
 
             public Port()
             {
                 PortNR = 0;
                 InitiatorPortNR = 0;
                 AcceptorPortNR = 0;
-                PortState = "online";
+                PortState = PortStates.Online;
                 PortStatus = "undetermined";
                 connectionDurationLimit = new TimeSpan(0, 0, 25);
                 dialDurationLimit = new TimeSpan(0, 0, 10);
+
+
+                dialDurationTimer.Elapsed += OnDialDurationTimeOut;
             }
 
-            dial
+            private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
+            {
+                if (PropertyChanged != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+                }
+            }            
+
             private void OnDialDurationTimeOut(object sender, System.Timers.ElapsedEventArgs e)
             {
                 
             }
+
+            
         }
 
+        private int portQantity = 3;
+        private Dictionary<int, Port> Ports = new Dictionary<int, Port>(); //Dictionary for getting port based on phoneNumber
+        private Dictionary<Port, int> PhoneNumbers = new Dictionary<Port, int>(); // Dictionary fpr getting phoneNUmber based on port
+
+
+        public PBX()
+        {
+            for (int i = 1; i < portQantity; i++)
+            {
+                Port port = new Port();
+                Ports.Add(25678+i, port);
+                PhoneNumbers.Add(port, 25678 + i);
+
+            }
+        }
+
+        public void OnPortStateChanged(object sender, PropertyChangedEventArgs e)
+        {
+            
+        }
         public void DialDurationCount()
         {
             int result;
